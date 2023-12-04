@@ -8,7 +8,7 @@ module.exports = {
     'airbnb-base',
     'eslint:recommended',
     'plugin:react/recommended',
-    'prettier'
+    'prettier',
   ],
   overrides: [
     {
@@ -31,5 +31,15 @@ module.exports = {
     'react',
   ],
   rules: {
-  },
+    "import/extensions": [
+       "error",
+       "ignorePackages",
+       {
+         "js": "never",
+         "jsx": "never",
+         "ts": "never",
+         "tsx": "never"
+       }
+    ]
+ }
 };
