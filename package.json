@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server .",
     "build": "webpack",
-    "lint": "eslint . --fix"
+    "lint": "eslint ./src/**/*.jsx --fix"
   },
   "keywords": [],
   "author": "",
@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.1"
   }
 }

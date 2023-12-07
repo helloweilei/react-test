@@ -40,6 +40,7 @@ module.exports = {
          "ts": "never",
          "tsx": "never"
        }
-    ]
+    ],
+    "react/prop-types": "off"
  }
 };
