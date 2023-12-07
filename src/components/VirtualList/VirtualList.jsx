@@ -13,7 +13,6 @@ const List = styled.ul`
   list-style: none;
   padding: 0;
   margin: 0;
-  height: ${props => `${props.height}px`};
 `;
 
 const Expanded = styled.div`
@@ -46,6 +45,9 @@ const VirtualList = (props) => {
   const wrapperRef = useRef(null);
 
   const { scrollRatio } = useScrollInfo(wrapperRef);
+
+  // eslint-disable-next-line no-console
+  console.log("scrolled");
 
   const itemCountInView = Math.ceil(height / itemHeight);
   const actualRenderedCount = renderedItemCount > itemCountInView
