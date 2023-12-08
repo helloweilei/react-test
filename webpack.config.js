@@ -8,6 +8,7 @@ module.exports = {
     filename: 'main.js',
   },
   target: 'web',
+  devtool: 'source-map',
   devServer: {
     port: 8086,
     hot: true,
