@@ -1,4 +1,6 @@
 const path = require('path');
+const HelloWorldPlugin = require('./webpackPlugins/HelloWorldPlugin');
+const OutputFilesPlugin = require('./webpackPlugins/OutputFilesPlugin');
 
 module.exports = {
   mode: 'development',
@@ -26,4 +28,8 @@ module.exports = {
       loader: 'babel-loader',
     }],
   },
+  plugins: [
+    new HelloWorldPlugin({ name: "Charlie" }),
+    new OutputFilesPlugin()
+  ]
 };
