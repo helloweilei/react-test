@@ -30,8 +30,8 @@ module.exports = class HelloWorldPlugin {
     })
 
     compiler.hooks.compilation.tap("HelloWorldPlugin", (compilation) => {
-      compilation.hooks.optimize.tap("HelloWorldPlugin", (assets) => {
-        console.log("optimize hook: ", assets);
+      compilation.hooks.optimize.tap("HelloWorldPlugin", () => {
+        // console.log("optimize hook: ", assets);
       })
     })
 
