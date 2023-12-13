@@ -1,0 +1,30 @@
+p, div, h1, h2, h3, h4, h5, h6, ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+// size map
+$sizes: (
+  xxs: 4px,
+  xs: 8px,
+  sm: 12px,
+  md: 16px,
+  lg: 20px,
+  xl: 24px,
+  xxl: 28px
+);
+
+// side list
+$sides: 'left', 'right', 'top', 'bottom';
+
+@each $size, $value in $sizes {
+  .padding-#{$size} {
+    padding: $value;
+  }
+
+  @each $side in $sides {
+    .padding-#{$side}-#{$size} {
+      padding-#{$side}: $value;
+    }
+  }
+}

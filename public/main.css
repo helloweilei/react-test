@@ -1,0 +1,149 @@
+/*!*********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss ***!
+  \*********************************************************************************************************/
+p, div, h1, h2, h3, h4, h5, h6, ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+.padding-xxs {
+  padding: 4px;
+}
+
+.padding-left-xxs {
+  padding-left: 4px;
+}
+
+.padding-right-xxs {
+  padding-right: 4px;
+}
+
+.padding-top-xxs {
+  padding-top: 4px;
+}
+
+.padding-bottom-xxs {
+  padding-bottom: 4px;
+}
+
+.padding-xs {
+  padding: 8px;
+}
+
+.padding-left-xs {
+  padding-left: 8px;
+}
+
+.padding-right-xs {
+  padding-right: 8px;
+}
+
+.padding-top-xs {
+  padding-top: 8px;
+}
+
+.padding-bottom-xs {
+  padding-bottom: 8px;
+}
+
+.padding-sm {
+  padding: 12px;
+}
+
+.padding-left-sm {
+  padding-left: 12px;
+}
+
+.padding-right-sm {
+  padding-right: 12px;
+}
+
+.padding-top-sm {
+  padding-top: 12px;
+}
+
+.padding-bottom-sm {
+  padding-bottom: 12px;
+}
+
+.padding-md {
+  padding: 16px;
+}
+
+.padding-left-md {
+  padding-left: 16px;
+}
+
+.padding-right-md {
+  padding-right: 16px;
+}
+
+.padding-top-md {
+  padding-top: 16px;
+}
+
+.padding-bottom-md {
+  padding-bottom: 16px;
+}
+
+.padding-lg {
+  padding: 20px;
+}
+
+.padding-left-lg {
+  padding-left: 20px;
+}
+
+.padding-right-lg {
+  padding-right: 20px;
+}
+
+.padding-top-lg {
+  padding-top: 20px;
+}
+
+.padding-bottom-lg {
+  padding-bottom: 20px;
+}
+
+.padding-xl {
+  padding: 24px;
+}
+
+.padding-left-xl {
+  padding-left: 24px;
+}
+
+.padding-right-xl {
+  padding-right: 24px;
+}
+
+.padding-top-xl {
+  padding-top: 24px;
+}
+
+.padding-bottom-xl {
+  padding-bottom: 24px;
+}
+
+.padding-xxl {
+  padding: 28px;
+}
+
+.padding-left-xxl {
+  padding-left: 28px;
+}
+
+.padding-right-xxl {
+  padding-right: 28px;
+}
+
+.padding-top-xxl {
+  padding-top: 28px;
+}
+
+.padding-bottom-xxl {
+  padding-bottom: 28px;
+}
+
+/*# sourceMappingURL=main.css.map*/

@@ -1,2 +1,4 @@
+- main.css
 - main.js
+- main.css.map
 - main.js.map
