@@ -25,7 +25,7 @@ const CustomSearch = () => {
     searchValue(e.target.value);
   };
 
-  return <Input value={value} onInput={ onInput }></Input>;
+  return <Input data-testid="input" value={value} onInput={ onInput }></Input>;
 };
 
 export default CustomSearch;

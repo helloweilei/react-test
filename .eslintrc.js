@@ -3,6 +3,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    "jest/globals": true
   },
   extends: [
     'airbnb-base',
@@ -41,6 +42,7 @@ module.exports = {
          "tsx": "never"
        }
     ],
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "import/no-extraneous-dependencies": "off"
  }
 };
