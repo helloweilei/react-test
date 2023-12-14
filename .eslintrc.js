@@ -6,10 +6,11 @@ module.exports = {
     "jest/globals": true
   },
   extends: [
-    'airbnb-base',
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'prettier',
+    "airbnb-base",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "prettier",
+    "plugin:storybook/recommended"
   ],
   overrides: [
     {
