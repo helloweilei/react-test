@@ -5,7 +5,7 @@ import VirtualList from "./VirtualList.jsx";
 const meta = {
   component: VirtualList,
   tags: ["autodocs"],
-  title: "VirtualList",
+  title: "Components/VirtualList",
 };
 
 export default meta;
