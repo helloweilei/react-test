@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
-import useDebounce from '../../hooks/useDebounce';
+import React, { useEffect, useState } from "react";
+import styled from "styled-components";
+import useDebounce from "../../hooks/useDebounce";
 
 const Input = styled.input`
   border: 1px solid #999;
@@ -11,7 +11,7 @@ const Input = styled.input`
 `;
 
 const CustomSearch = () => {
-  const [value, setValue] = useState('');
+  const [value, setValue] = useState("");
 
   const searchValue = useDebounce((val) => {
     setTimeout(() => {
@@ -25,7 +25,14 @@ const CustomSearch = () => {
     searchValue(e.target.value);
   };
 
-  return <Input data-testid="input" value={value} onInput={ onInput }></Input>;
+  useEffect(() => {
+    console.log("new value: ", value);
+    return () => {
+      console.log("previous value: ", value);
+    };
+  }, [value]);
+
+  return <Input data-testid="input" value={value} onInput={onInput}></Input>;
 };
 
 export default CustomSearch;
